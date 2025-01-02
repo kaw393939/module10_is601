@@ -123,7 +123,38 @@ By successfully completing Module 10, you will demonstrate mastery of several **
      - A brief overview of how to run tests locally.  
      - **Links** to your Docker Hub repository (where your image is pushed).  
    - Remember, this is the same project you’ll build upon in future modules, ultimately forming your final project.
+# **Grading Expectations**
 
+Your submissions for the **Hands-On Assignment** will be evaluated based on the following two criteria:
+
+### **1. Submission Completeness (50 Points)**
+
+- **GitHub Repository Link:**
+  - Provided and accessible.
+  - Contains all necessary files (`SQLAlchemy` models, Pydantic schemas, application code, tests, GitHub Actions workflow).
+
+- **Screenshots:**
+  - **GitHub Actions Workflow:** Screenshot showing a successful run of the GitHub Actions workflow.
+  - **Docker Hub Deployment:** Screenshot demonstrating the Docker image has been successfully pushed to Docker Hub.
+
+- **Documentation:**
+  - Includes a reflection document addressing key experiences and challenges faced during the development and deployment process.
+  - README file contains instructions on how to run tests locally and links to the Docker Hub repository.
+
+### **2. Functionality of Secure User Model and CI/CD Pipeline (50 Points)**
+
+- **Secure User Model:**
+  - SQLAlchemy `User` model correctly implemented with hashed passwords and uniqueness constraints for `username` and `email`.
+  - Pydantic schemas (`UserCreate`, `UserRead`) accurately validate and serialize user data.
+
+- **Testing and CI/CD:**
+  - Comprehensive unit and integration tests are written and pass successfully in the GitHub Actions workflow.
+  - CI/CD pipeline is properly configured to build, scan, and deploy the Docker image to Docker Hub without errors.
+  - Docker image is functional and can be pulled from Docker Hub, running the application as expected.
+
+---
+
+**Total: 100 Points**
 ---
 
 ## **Reflect**
